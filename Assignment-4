@@ -1,0 +1,7 @@
+NumList = []
+n = int(input("Please enter element length in list "))
+for i in range(1, n + 1):
+    value = int(input("Please enter the Value of %d Element : " %i))
+    NumList.append(value)
+print('min:', min(NumList))
+print('max:', max(NumList))
