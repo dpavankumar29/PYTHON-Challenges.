@@ -1,0 +1,8 @@
+lis=list(map(int,input().split( )))
+uniqueList = []
+duplicateList = []
+for i in lis:
+    if i not in uniqueList:
+        print('unique')
+    elif i not in duplicateList:
+        print('duplicateList')
